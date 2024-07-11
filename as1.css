@@ -1,0 +1,22 @@
+h1{
+    background-color: beige;
+    text-align: center;
+    width:100%;
+    height: 100px;
+}
+h4{
+    color:chartreuse;
+    background-color:brown;
+    width: 10%;
+}
+footer{
+    color:chocolate;
+    background-color: bisque;
+    height: 100px;
+}
+h2{
+    color: aqua;
+}
+table, th, td {
+    border: 3px solid rgb(142, 22, 22);
+  }

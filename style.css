@@ -1,0 +1,35 @@
+header,footer{
+    background-color: rgb(162, 96, 96);
+    height: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.item1{
+    background-color:blue;
+    width: 20%;
+}
+.item2{
+    background-color: yellowgreen;
+    width: 60%;
+}
+
+.item3{
+    background-color: darkgoldenrod;
+    width: 20%;
+}
+@media screen  and (max-width:50px){
+    .item1 , .item2{
+        width: 10%;
+    }
+
+    .item3{
+        width: 11%;
+    }
+
+
+
+}
